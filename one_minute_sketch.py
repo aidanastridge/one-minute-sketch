@@ -1,6 +1,5 @@
 import cv2
 import random
-import pafy
 
 #This script as of right now only captures a random frame out of a downloaded video.
 #I will be creating an app that can take a video from youtube that shows a random frame for a minute.
