@@ -1,1 +1,1 @@
-# one-minute-sketch
+# One Minute Sketch
