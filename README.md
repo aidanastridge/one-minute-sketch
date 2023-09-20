@@ -3,7 +3,7 @@
 # ✏️ One Minute Sketch
 
 ## What?
-Script that captures a random frame from youtube video.
+Script that captures a random frame from a video.
 
 ## Why? 
 
