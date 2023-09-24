@@ -6,9 +6,11 @@ import os
 import random
 import cv2
 from pytube import YouTube
+from PIL import Image
+from PIL import ImageShow
 
 # Replace with the URL of the YouTube video you want to capture a frame from
-video_url = "https://www.youtube.com/"
+video_url = "https://www.youtube.com/watch?v="
 
 # Define the output directory where the video will be downloaded
 output_dir = "downloaded_videos"
@@ -45,3 +47,10 @@ else:
 # Release the video capture and close the window
 cap.release()
 cv2.destroyAllWindows()
+
+# Open the image
+image_path = "./downloaded_videos/random_frame.png"  # Replace with the path to your image file
+image = Image.open(image_path)
+
+# Display the image using the default image viewer
+ImageShow.show(image)
