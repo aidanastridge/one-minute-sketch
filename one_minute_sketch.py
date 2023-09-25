@@ -11,7 +11,7 @@ from PIL import Image
 from PIL import ImageShow
 
 # Replace with the URL of the YouTube video you want to capture a frame from
-video_url = "https://www.youtube.com/watch?v=K0HSD_i2DvA"
+video_url = "https://www.youtube.com/watch?v="
 
 # Define the output directory where the video will be downloaded
 output_dir = "downloaded_videos"
